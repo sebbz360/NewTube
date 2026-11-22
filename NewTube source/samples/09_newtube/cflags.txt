@@ -1,0 +1,2 @@
+# Lua headers (relative to this folder)
+/I..\..\third_party\lua-5.1.5\src

@@ -1,0 +1,10 @@
+# FFmpeg + sbplayer + sbhttp (ffmpeg360\build_ffmpeg.py + link_test.py), relative to samples\07_youtube\out\work
+..\..\..\..\ffmpeg360\out\ffmpeg360.lib
+# HTTPS: mbedTLS + the 360's sockets/DNS
+..\..\..\..\mbedtls360\out\mbedtls360.lib
+xnet.lib
+# the updatable YouTube script runs in Lua 5.1 (lua360\build_lua.py)
+..\..\..\..\lua360\out\lua360.lib
+# sound
+xaudio2.lib
+xmcore.lib
